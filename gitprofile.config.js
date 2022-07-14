@@ -2,89 +2,97 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'nhridoy', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
+      forks: true, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    facebook: '',
-    instagram: '',
+    linkedin: 'nahidujjaman-hridoy',
+    twitter: 'hridoyboss12',
+    facebook: 'nahidujjaman.hridoy',
+    instagram: 'hridoyboss',
     dribbble: '',
-    behance: '',
+    behance: 'nhridoy',
     medium: '',
-    dev: 'arifszn',
-    website: 'https://arifszn.github.io',
+    dev: '',
+    website: 'https://nhridoy.github.io',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'nahidujjamanhridoy@gmail.com',
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Python',
+    'Django',
+    'Django Rest Framework',
     'JavaScript',
     'React.js',
     'Node.js',
-    'Nest.js',
+    'Next.js',
     'MySQL',
+    'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
+    'HTML',
     'CSS',
-    'Antd',
-    'Tailwind',
     'Bootstrap',
+    'Tailwind',
+    'MUI',
   ],
   experiences: [
     {
-      company: 'Monstarlab Bangladesh',
-      position: 'Backend Engineer II',
-      from: 'September 2021',
+      company: 'Nexis Limited',
+      position: 'Full Stack Developer',
+      from: 'May 2022',
       to: 'Present',
     },
     {
-      company: 'My Offer 360 Degree',
-      position: 'Web Application Developer',
-      from: 'July 2019',
-      to: 'August 2021',
+      company: 'Research Rider',
+      position: 'Full Stack Developer',
+      from: 'April 2022',
+      to: 'May 2022',
+    },
+    {
+      company: 'Techforing Limited',
+      position: 'Backend Developer',
+      from: 'September 2021',
+      to: 'February 2022',
     },
   ],
   education: [
     {
-      institution: 'American International University-Bangladesh',
+      institution: 'Daffodil International University, Bangladesh',
       degree: 'Bachelor of Science',
-      from: '2015',
-      to: '2019',
+      from: '2018',
+      to: '2021',
     },
     {
-      institution: 'Cantonment College, Jessore',
-      degree: 'Higher Secondary Certificate (HSC)',
-      from: '2012',
-      to: '2014',
+      institution: 'Jessore Polytechnic Institute, Jessore',
+      degree: 'Diploma in Engineering',
+      from: '2013',
+      to: '2018',
     },
     {
-      institution: 'Chowgacha Shahadat Pilot High School',
+      institution: 'Narail Government High School, Narail',
       degree: 'Secondary School Certificate (SSC)',
       from: '2007',
-      to: '2012',
+      to: '2013',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn',
+    source: '', // medium | dev
+    username: '',
     limit: 3, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
     // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-    id: 'G-WLLB5E14M6', // Please remove this and use your own tag id or keep it empty
+    id: '', // Please remove this and use your own tag id or keep it empty
   },
   hotjar: {
-    id: '2617601', //  Please remove this and use your own id or keep it empty
+    id: '', //  Please remove this and use your own id or keep it empty
     snippetVersion: 6,
   },
   themeConfig: {
@@ -96,7 +104,7 @@ const config = {
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
-    respectPrefersColorScheme: false,
+    respectPrefersColorScheme: true,
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
